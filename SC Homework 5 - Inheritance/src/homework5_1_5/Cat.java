@@ -1,0 +1,19 @@
+package src.homework5_1_5;
+
+public class Cat extends Mammal {
+
+	public Cat(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+
+	public void greets() {
+		System.out.println("Meow");
+	}
+
+	@Override
+	public String toString() {
+		return "Cat [" + super.toString() + "]";
+	}
+
+}
